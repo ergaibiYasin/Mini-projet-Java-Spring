@@ -40,3 +40,14 @@ Technologies Used
 -   Spring Data JPA
 -   H2 in-memory database
 -   Maven
+
+Data structure
+--------------
+
+| Field name | Type | Description |
+| --- | --- | --- |
+| caseId | BIGINT (PK) | Id of the case |
+| creationDate | DATETIME | Creation date of the case |
+| lastUpdateDate | DATETIME | Last modification date of the case |
+| title | VARCHAR(255) | Title of the case |
+| description | VARCHAR(2056) | Description of the case |
